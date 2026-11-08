@@ -120,9 +120,6 @@ with st.sidebar:
             st.info("Enter the access code to enable live LLM runs.")
     if use_llm:
         st.warning("Live LLM mode sends the uploaded screenplay text to the configured model provider.")
-    else:
-        st.warning("Heuristic mode scores keywords and punctuation only. It cannot judge story context or whether a "
-                   "clip makes sense to a new viewer. Treat its output as an unverified shortlist, not an LLM analysis.")
     st.divider()
     st.caption(f"PromoFinder v{__version__}. Upload limit {LIMITS['max_zip_bytes'] // 2**20} MB, "
                f"{LIMITS['max_txt_files']} episodes, .txt files only.")
