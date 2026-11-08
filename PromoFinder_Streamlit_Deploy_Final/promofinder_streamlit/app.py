@@ -108,7 +108,7 @@ def safe_error(prefix, ex):
 with st.sidebar:
     st.header("Analysis engine")
     st.caption(public_summary(CFG))
-    engines = ["Heuristic (no LLM — unverified shortlist)"]
+    engines = ["Heuristic"]
     if CFG["_llm_configured"]:
         engines.append(f"LLM: {CFG['_provider']} · {CFG['_model']}")
     engine = st.radio("Engine for uploaded ZIPs", engines)
