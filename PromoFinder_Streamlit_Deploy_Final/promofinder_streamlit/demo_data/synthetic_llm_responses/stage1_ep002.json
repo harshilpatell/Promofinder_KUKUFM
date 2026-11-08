@@ -1,0 +1,7 @@
+{
+ "prompt_id": "stage1_ep002",
+ "produced_by": "example response authored with Claude for the synthetic demo show (offline replay; NOT a live model call)",
+ "created_at": "2026-11-08",
+ "usage": {},
+ "response_text": "{\n \"episode\": 2,\n \"episode_summary\": \"Mara marries Cole at city hall; Vivian's lawyer gives her one hour to leave her shop; Cole calmly buys the whole street.\",\n \"story_facts\": [\n  \"Mara and Cole marry\",\n  \"Cole has hidden wealth\"\n ],\n \"candidates\": [\n  {\n   \"title\": \"'Buy the whole street'\",\n   \"angle\": \"power-reversal\",\n   \"segments\": [\n    {\n     \"start_event\": \"E2-008\",\n     \"end_event\": \"E2-016\"\n    }\n   ],\n   \"hook_event\": \"E2-008\",\n   \"hook_quote\": \"You have one hour.\",\n   \"hook\": \"A lawyer slaps an eviction on the counter: 'You have one hour.'\",\n   \"cliffhanger_event\": \"E2-016\",\n   \"cliffhanger\": \"'Who... who are you?'\",\n   \"standalone_context\": \"Eviction and a mysterious husband are clear.\",\n   \"why_it_works\": \"Instant underdog reversal.\",\n   \"scores\": {\n    \"hook\": 18,\n    \"cliffhanger\": 19,\n    \"standalone\": 15,\n    \"emotion\": 11,\n    \"visual\": 7,\n    \"distinct\": 4\n   },\n   \"confidence\": \"medium\",\n   \"concerns\": \"Probably too short on its own.\"\n  }\n ],\n \"rejected_moments\": [\n  {\n   \"events\": \"E2-001..E2-006\",\n   \"reason\": \"Wedding vows resolve the Ep1 proposal.\"\n  }\n ]\n}"
+}

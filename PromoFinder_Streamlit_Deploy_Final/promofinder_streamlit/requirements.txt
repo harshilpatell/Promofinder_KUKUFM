@@ -1,0 +1,7 @@
+# Runtime dependencies (pinned to the versions tested on 2026-11-08)
+streamlit==1.67.0
+pandas==3.0.5
+python-dotenv==1.2.3
+# Optional LLM providers (only used when configured via secrets)
+anthropic==2.6.0
+openai==3.46.0

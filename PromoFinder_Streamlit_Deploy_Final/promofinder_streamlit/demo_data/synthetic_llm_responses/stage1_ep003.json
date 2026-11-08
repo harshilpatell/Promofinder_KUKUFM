@@ -1,0 +1,7 @@
+{
+ "prompt_id": "stage1_ep003",
+ "produced_by": "example response authored with Claude for the synthetic demo show (offline replay; NOT a live model call)",
+ "created_at": "2026-11-08",
+ "usage": {},
+ "response_text": "{\n \"episode\": 3,\n \"episode_summary\": \"Vivian learns the 'valet' is the missing Calloway heir; Mara arrives with an eviction notice for Vivian; Theo warns there is something she doesn't know about Cole.\",\n \"story_facts\": [\n  \"Cole is the Calloway heir\",\n  \"Theo hints at a secret\"\n ],\n \"candidates\": [\n  {\n   \"title\": \"The valet is the missing heir\",\n   \"angle\": \"mystery/reveal\",\n   \"segments\": [\n    {\n     \"start_event\": \"E3-002\",\n     \"end_event\": \"E3-017\"\n    }\n   ],\n   \"hook_event\": \"E3-002\",\n   \"hook_quote\": \"Calloway Holdings bought Fifth Street?\",\n   \"hook\": \"A furious matriarch slams down a newspaper: 'Calloway Holdings bought Fifth Street?'\",\n   \"cliffhanger_event\": \"E3-017\",\n   \"cliffhanger\": \"'Mara, wait. There's something you don't know about Cole.'\",\n   \"standalone_context\": \"The newspaper photo and 'That's the valet.' explain the twist.\",\n   \"why_it_works\": \"Revenge payoff, then a new secret.\",\n   \"scores\": {\n    \"hook\": 17,\n    \"cliffhanger\": 22,\n    \"standalone\": 15,\n    \"emotion\": 12,\n    \"visual\": 7,\n    \"distinct\": 4\n   },\n   \"confidence\": \"medium\",\n   \"concerns\": \"\"\n  }\n ],\n \"rejected_moments\": []\n}"
+}
